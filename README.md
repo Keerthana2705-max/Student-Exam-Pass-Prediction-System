@@ -10,7 +10,7 @@ Keywords: Logistic Regression, Student Performance Prediction, Machine Learning,
 
 ---
 
-# CHAPTER 1: INTRODUCTION
+# 1: INTRODUCTION
 
 ## 1.1 Background
 
@@ -50,7 +50,7 @@ The objectives of this project are:
 
 ---
 
-# CHAPTER 2: DATASET DESCRIPTION
+# 2: DATASET DESCRIPTION
 
 ## Dataset Source
 
@@ -76,7 +76,7 @@ Student Performance Prediction Dataset
 
 ---
 
-# CHAPTER 3: METHODOLOGY
+# 3: METHODOLOGY
 
 ## Step 1: Data Collection
 
@@ -139,7 +139,7 @@ Benefits:
 
 ---
 
-# CHAPTER 4: EXPLORATORY DATA ANALYSIS
+# 4: EXPLORATORY DATA ANALYSIS
 
 ## Descriptive Statistics
 
@@ -180,21 +180,29 @@ The following relationships are analyzed:
 
 ---
 
-# CHAPTER 5: DATA VISUALIZATION
+# 5: DATA VISUALIZATION
 
 The project uses Matplotlib and Seaborn for visualization.
 
 ## Bar Charts
 
 * Pass vs Fail Distribution
+* <img width="675" height="490" alt="image" src="https://github.com/user-attachments/assets/da452cde-3027-444e-b776-2cdf8eddb1c4" />
+
 * Gender Distribution
-* Internet Access Distribution
+* <img width="662" height="487" alt="image" src="https://github.com/user-attachments/assets/6f47538d-e406-469b-a3e8-ea0b3f84e288" />
 
 ## Histograms
 
 * Study Hours Distribution
+* <img width="666" height="490" alt="image" src="https://github.com/user-attachments/assets/43d1ca82-56c4-4bb0-8d78-95aed8246d15" />
+
 * Attendance Distribution
+* <img width="677" height="552" alt="image" src="https://github.com/user-attachments/assets/a4e3efcd-12fa-4c24-a624-4dc1fc9f14ea" />
+
 * Final Exam Score Distribution
+* <img width="661" height="492" alt="image" src="https://github.com/user-attachments/assets/0f89710b-51dc-4343-a181-c1b66d429e79" />
+
 
 ## Scatter Plots
 
@@ -209,10 +217,12 @@ The project uses Matplotlib and Seaborn for visualization.
 ## Heatmap
 
 Correlation analysis among numerical variables.
+<img width="1295" height="697" alt="image" src="https://github.com/user-attachments/assets/67d652b4-7909-40dd-8357-470e6d478e14" />
+
 
 ---
 
-# CHAPTER 6: RISK ANALYSIS
+# 6: RISK ANALYSIS
 
 Students are classified into three categories.
 
@@ -247,7 +257,7 @@ Purpose:
 
 ---
 
-# CHAPTER 7: LOGISTIC REGRESSION MODEL
+# 7: LOGISTIC REGRESSION MODEL
 
 ## Independent Variables
 
@@ -286,7 +296,7 @@ Functions Used:
 
 ---
 
-# CHAPTER 8: MODEL EVALUATION
+# 8: MODEL EVALUATION
 
 The model is evaluated using:
 
@@ -307,6 +317,8 @@ Measures ability to identify actual positive cases.
 Balances Precision and Recall.
 
 ## Confusion Matrix
+<img width="622" height="491" alt="image" src="https://github.com/user-attachments/assets/6f06df50-d40f-4cd2-bcb7-a800fbbbcef4" />
+
 
 Displays:
 
@@ -321,7 +333,7 @@ Measures classification quality and separability.
 
 ---
 
-# CHAPTER 9: DASHBOARD DEVELOPMENT
+# 9: DASHBOARD DEVELOPMENT
 
 Tool Used:
 
@@ -345,7 +357,7 @@ Streamlit
 
 ---
 
-# CHAPTER 10: RESULTS
+# 10: RESULTS
 
 The Logistic Regression model successfully predicts whether a student is likely to pass or fail.
 
@@ -359,7 +371,7 @@ Key findings:
 
 ---
 
-# CHAPTER 11: CONCLUSION
+# 11: CONCLUSION
 
 The Student Exam Pass Prediction System provides an efficient solution for predicting student performance using Logistic Regression. Through EDA, visualization, and machine learning, the system identifies important academic factors and helps institutions take proactive measures to improve student success.
 
